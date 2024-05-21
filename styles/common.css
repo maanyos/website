@@ -21,6 +21,13 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    display: inline-block;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 .caption {
     text-align: center;
     margin: 5px;
