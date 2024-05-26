@@ -1,5 +1,4 @@
 .project {
-    background-color: lightskyblue;
     margin: auto;
     width: 90%;
 }
@@ -10,10 +9,18 @@
 }
 
 .project-item {
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    margin: 20px;
+    padding: 20px;
+}
+
+.project-item-left {
+    background-color: lightskyblue;
+}
+
+.project-item-right {
+    background-color: lightsalmon;
 }
 
 .project-details {
