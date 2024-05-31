@@ -26,16 +26,37 @@
 .project-details {
     display: flex;
     flex-direction: row;
+    font-size: 20px;
 }
 
-.project-time {
-    margin-right: 20px;
-    flex: 1fr;
+.project-details a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .project-manpower {
     display: flex;
     align-items: center;
+    flex: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-description {
+    margin-top: 16px;
+}
+
+.project-video {
+    width: 100%;
+}
+
+.project-image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+ol {
+    margin: 0px;
 }
 
 .logo {
