@@ -57,7 +57,7 @@
 						<li>Design and implement AI engine system in Python</li>
 						<li>Label datasets</li>
 						<li>Train model on AWS EC2</li>
-						<li>Evaluate engine performance</li>
+						<li>Develop evaluate procedure for engine performance</li>
 						<li>Develop post processor</li>
 					</ol>
 					<h6>Results</h6>
@@ -88,25 +88,25 @@
 					co-pilot, such as executing checklists, error detection, and ensuring pilot alertness.
 					<h6>Contributions</h6>
 					<ol>
-						<li>Engaged with Boeing engineers and pilots to understand current cockpit procedures.
+						<li>Engaged with Boeing engineers and pilots to understand current cockpit procedures
 						</li>
 						<li>Designed functionality of smart glasses and automated switches:</li>
 						<ul>
 							<li>Overlays critical information such as checklist items and warnings in the pilot's field
-								of view.
+								of view
 							</li>
 							<li>Tracks the pilot's blinking pattern and wakes them with vibrations if their eyes remain
-								closed for an extended period.</li>
-							<li>Uses computer vision to detect errors in pilot's actions and alert them accordingly.
+								closed for an extended period</li>
+							<li>Uses computer vision to detect errors in pilot's actions and alert them accordingly
 							</li>
 							<li>Automated switches execute tasks upon pilot approval while maintaining manual override
-								capability as backup.</li>
+								capability as backup</li>
 						</ul>
 						<li>Sourced and integrated all electronic components, including a mini OLED display, vibration
 							motor, motion sensor, video camera, buttons & switches, rotary motors, and
 							microcontrollers</li>
 						<li>Developed all functionality of smart glasses and automated switches including
-							microcontroller algorithm, computer vision, and OLED display content. (Yolov8, Python,
+							microcontroller algorithm, computer vision, and OLED display content (Yolov8, Python,
 							Arduino)</li>
 					</ol>
 					<h6>Results</h6>
@@ -131,21 +131,34 @@
 						5
 						<img class="logo" src="images/person_logo.png">
 					</div>
-					<a href="">NUS Computer Engineering</a>
+					<a href="https://nusmods.com/courses/CG2271/real-time-operating-systems">NUS Computer
+						Engineering</a>
 				</div>
 				<div class="project-description">
+					NUS Computer Engineering course on Real-Time Operating Systems.
 					<h6>Overview</h6>
+					In this project, teams are tasked with building a remote-controlled robotic car capable of
+					navigating an obstacle course as quickly as possible. Each car is built using similar components,
+					with the primary differentiating factor being the software and operating system developed by each
+					team. The cars require essential functionalities, including playing music, flashing lights, and
+					maneuvering abilities. The car uses an ESP32 for wireless control and a main microcontroller (FRDM
+					KL25Z), which contains an ARM Cortex M0+ processor. This processor runs a Real-Time Operating System
+					(Keil RTX), programmed with threads and interrupts in C.
 					<h6>Contributions</h6>
+					<ul>
+						<li>Co-designed the OS architecture</li>
+						<li>Recommended switching from HTTP to UDP protocol for control signals, reducing latency</li>
+						<li>Implemented the flashing light functionality requirement</li>
+						<li>Designed and procured a custom laser-cut acrylic chassis frame to enhance vehicle dynamics
+						</li>
+						<li>Drove the car during final obstacle course run to obtain the team's timing</li>
+					</ul>
 					<h6>Results</h6>
-					fastest lap time in class
-					• Building a remoted controlled car for driving around a test circuit.
-					• The main microcontroller (FRDM KL25Z) contains an ARM Cortex M0+ processor
-					and runs a Real-Time Operating System (Keil RTX), programmed with threads and
-					interrupts. (C)
-					• The robot is controlled via an Android web app that interfaces over Wi-Fi with the onboard ESP32
-					microcontroller,
-					which then relays information to the main
-					microcontroller over UART.
+					The thoughtful design and implementation of our Real-Time Operating System led to exceptionally low
+					control latency. Additionally, the joystick control system, developed by a team member, provided
+					finer control over the car's movements compared to traditional button controls. This responsiveness
+					and ease of control enabled our team to achieve the fastest lap time in our lab class by a
+					comfortable margin.
 				</div>
 			</div>
 			<div class="project-item project-item-left">
