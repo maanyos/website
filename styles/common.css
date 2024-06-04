@@ -40,6 +40,10 @@ h6 {
     font-weight: bold;
 }
 
+.keyword {
+    font-weight: bold;
+}
+
 .caption {
     text-align: center;
     margin: 5px;
