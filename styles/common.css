@@ -4,6 +4,7 @@
 
 .page {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -47,6 +48,7 @@ h6 {
 .profile-photo {
     display: block;
     margin: auto;
+    margin-bottom: 20px;
     height: 300px;
 }
 
@@ -57,18 +59,36 @@ h6 {
 
 .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 70%;
+    margin-top: 20px;
 }
 
-.content-column {
+.content-header {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content-description {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.content-description img {
+    height: 200px;
+}
+
+/* .content-column {
     flex: 1;
     display: flex;
     flex-direction: column;
     vertical-align: top;
     margin: 20px;
-}
+} */
 
 .navbar {
     background-color: lightgreen;
