@@ -49,21 +49,32 @@
 					<h6>Overview</h6>
 					Developed a Document AI engine to extract information from medical documents, simplifying tasks
 					for healthcare staff. The engine includes a multimodal transformer (image-encoder decoder model) for
-					visual extraction and a post-processor using OpenAI API for cleaning, validation, and reformatting.
+					visual extraction and post-processoring using OpenAI API for cleaning, validation, and reformatting.
 					<h6>Contributions</h6>
 					<ol>
-						<li>Design and implement AI engine system in Python</li>
+						<li>Design and implement entire AI engine system in Python</li>
 						<li>Label datasets</li>
 						<li>Train model on AWS EC2</li>
-						<li>Develop evaluate procedure for engine performance</li>
-						<li>Develop post processor</li>
+						<li>Develop evaluation procedure for engine performance</li>
+						<li>Develop post processing, including integration with OpenAI API</li>
+						<li>Develop procedure for detecting duplicate files</li>
+						<li>Deploy AI engine & backend on AWS (EC2, SQS, S3, Lambda, DynamoDB)</li>
 					</ol>
+					<h6>System Diagrams</h6>
+					AI Engine:
+					<img src="images/reven_diagram_1.jpg" class="project-image">
+					Backend:
+					<img src="images/reven_diagram_2.jpg" class="project-image">
 					<h6>Results</h6>
 					The AI engine is robust, effectively handling documents with high noise levels, handwriting,
-					and information scattered across multiple pages. It achieved an accuracy of over 80% on
-					client documents, significantly improving from the previous version's 60% and surpassing
-					general-purpose models like GPT-4o, which achieve 55%.
-					<img src="images/reven_diagram.jpg" class="project-image">
+					and information scattered across multiple pages. <br>
+					It achieves an accuracy of over 85% on
+					client documents, significantly improving from the previous version's ~60% and surpassing
+					general-purpose models like GPT-4o, which performs at around ~75%. <br>
+					The AI engine processing time for a single page file is about ~6s, with ~4s for each additional
+					page. End-to-end processing time (from file upload to seeing output on UI), is about ~10s for a
+					single page file.
+
 				</div>
 
 			</div>
